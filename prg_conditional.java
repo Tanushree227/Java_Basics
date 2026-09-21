@@ -20,6 +20,15 @@ public class prg_conditional {
         {
             System.out.println("Odd number");
         }
+
+        if(i > 50)
+        {
+            System.out.println("Greater than 50");
+            if(i == 22)
+            {
+                System.out.println("i is equal to 22");
+            }
+        }
         System.out.println("Program executed successfully");
     }
 }
