@@ -29,6 +29,10 @@ public class prg_conditional {
                 System.out.println("i is equal to 22");
             }
         }
+
+        int max = (age > i) ? age : i;
+        System.out.println("Maximum value is: " + max);
+        
         System.out.println("Program executed successfully");
     }
 }
