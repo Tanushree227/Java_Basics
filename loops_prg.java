@@ -23,5 +23,13 @@ public class loops_prg {
             System.out.println("3 * " +j+ " = " +3*j);
             j++;
         }
+
+        //do-while
+        System.out.println("Multiplication Table of 4 using do-while loop");
+        int k = 1;
+        do {
+            System.out.println("4 * " +k+ " = " +4*k);
+            k++;
+        }while(k <= 10);
     }
 }
