@@ -7,6 +7,8 @@ public class methods {
     //Types of methods in Java
     //1. No parameters No return value
     //2. Parameters No return value
+    //3. No parameters but return value
+    //4. Parameters and returns a value
     public static void greet()
     {
         System.out.println("Hakuna Matata");
@@ -23,6 +25,11 @@ public class methods {
         return id;
     }
 
+    public static int efficiency(int power, int days)
+    {
+        return power * days;
+    }
+
     public static void main(String[] args)
     {
         methods m = new methods();
@@ -31,5 +38,7 @@ public class methods {
         displayName("Thor");
         int id = getID();
         System.out.println("Your ID is: " +id);
+        int eff = efficiency(3500, 30);
+        System.out.println("Hits with efficiency: " +eff);
     }
 }
