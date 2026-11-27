@@ -17,11 +17,19 @@ public class methods {
         System.out.println("Hola " +name);
     }
 
+    public static int getID()
+    {
+        int id = 101;
+        return id;
+    }
+
     public static void main(String[] args)
     {
         methods m = new methods();
         m.display();
         greet();
         displayName("Thor");
+        int id = getID();
+        System.out.println("Your ID is: " +id);
     }
 }
