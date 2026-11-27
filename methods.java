@@ -6,9 +6,15 @@ public class methods {
 
     //Types of methods in Java
     //1. No parameters No return value
+    //2. Parameters No return value
     public static void greet()
     {
         System.out.println("Hakuna Matata");
+    }
+
+    public static void displayName(String name)
+    {
+        System.out.println("Hola " +name);
     }
 
     public static void main(String[] args)
@@ -16,5 +22,6 @@ public class methods {
         methods m = new methods();
         m.display();
         greet();
+        displayName("Thor");
     }
 }
